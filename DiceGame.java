@@ -38,6 +38,8 @@ public class DiceGame{
 	System.out.println("You won");
     else  System.out.println("You lost");
 
+    System.out.println("Finish");
+
 }
 
     public static void main(String args[]){
