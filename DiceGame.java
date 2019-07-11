@@ -25,6 +25,9 @@ public class DiceGame{
     Player  p=new Player("John");
     Die die1=new Die();
     Die die2=new Die();
+    System.out.println("What is your name");
+    System.out.println("> "+p.getName());
+    System.out.println("Hello, "+p.getName()+"!");
     System.out.println("Rolling the dice...");
     die1.roll();
     die2.roll();
